@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/InstantMizu/pen/bZAzqz.
+Simon Game Clone
 
- 
+https://shintouki.github.io/simon-game-clone/ 

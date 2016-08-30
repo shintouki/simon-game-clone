@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  background-color: #252839;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #33FFFF;
+}
+
+#author {
+  color: white;
+}
+
+#main_circle {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 40px auto 40px auto;
+  position: relative;
+  box-shadow: 0px 0px 10px 2px #FFF0F5;
+}
+
+#inner_circle {
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+  background-color: #ba9077;
+  position: absolute;
+  border-radius: 50%;
+  left: 22.5%;
+  top: 22.5%;
+  border: solid 12px #FFF0F5;
+}
+
+.color_buttons {
+  outline: none;
+}
+
+#green_button {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: #006600;
+  border-top-left-radius: 100%;
+  border-top: solid 20px #FFF0F5;
+  border-right: solid 10px #FFF0F5;
+  border-left: solid 20px #FFF0F5;
+  border-bottom: solid 10px #FFF0F5;
+}
+
+#red_button {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: #cc0000;
+  border-top-right-radius: 100%;
+  border-top: solid 20px #FFF0F5;
+  border-right: solid 20px #FFF0F5;
+  border-left: solid 10px #FFF0F5;
+  border-bottom: solid 10px #FFF0F5;
+}
+
+#yellow_button {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: #DAA520;
+  border-bottom-left-radius: 100%;
+  border-top: solid 10px #FFF0F5;
+  border-right: solid 10px #FFF0F5;
+  border-left: solid 20px #FFF0F5;
+  border-bottom: solid 20px #FFF0F5;
+}
+
+#blue_button {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: #0000b3;
+  border-bottom-right-radius: 100%;
+  border-top: solid 10px #FFF0F5;
+  border-right: solid 20px #FFF0F5;
+  border-left: solid 10px #FFF0F5;
+  border-bottom: solid 20px #FFF0F5;
+}
+
+#status_display {
+  width: 50%;
+  height: 20%;
+  background-color: black;
+  color: green;
+  position: absolute;
+  left: 24%;
+  top: 20%;
+  vertical-align: middle;
+  font-family: monospace;
+  font-size: 125%;
+  border-radius: 10px;
+}
+
+#start_button {
+  outline: none;
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  background-color: #00ff00;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px 1px gray;
+  font-family: 'Cinzel', serif;
+}
+
+#strict_button {
+  outline: none;
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px 1px gray;
+  background-color: lavendar;
+  font-family: 'Cinzel', serif;
+}
+
+#status_message {
+  margin: 4% 0 0 0;
+}
+
+#level_message {
+  margin: 0;
+}

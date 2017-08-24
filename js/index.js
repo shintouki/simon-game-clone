@@ -43,6 +43,7 @@ $(document).ready(function() {
     strictModeOn = !strictModeOn;
   });
 
+  // Make button color a little brighter when pressed.
   function buttonPress(buttonId) {
     let colorPressed;
     if (buttonId === "#green_button") {
@@ -181,6 +182,7 @@ $(document).ready(function() {
     }, 2000);
   }
 
+  // Goes through sequence of stored colors at the start of each round.
   function playColorButtonSequence() {
     // Play stored colors in memory
     let i = 0;
